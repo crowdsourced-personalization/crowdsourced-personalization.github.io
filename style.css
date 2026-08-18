@@ -27,8 +27,14 @@ main, .site-header, .site-footer {
 }
 
 .site-header {
-  padding: 4rem 0 2.5rem;
+  padding: 4rem 0 1.25rem;
   border-bottom: 1px solid var(--rule);
+}
+
+.site-header > p:last-child {
+  margin-bottom: 0;
+  color: #444444;
+  font-size: 16px;
 }
 
 .site-header h1 {
